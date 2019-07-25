@@ -14,6 +14,15 @@
 - Solution: Added a changed in the post-build commands section: private to  public-read
 
 
+### AWS-3.YML
+
+- Problem: CloudFormation stack was not attaching to GitHub 
+- Solution: Inside of Source -> Configuration, changed:
+"Owner: GithubOwner 
+Repo: GithubRepo" 
+to 
+"Owner: !Ref GithubOwner 
+Repo" !Ref GithubRepo:
 
 
 ### AWS-4.YML
