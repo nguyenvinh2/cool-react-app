@@ -1,1 +1,0 @@
-# cool-react-app
