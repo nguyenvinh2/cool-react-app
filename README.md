@@ -62,7 +62,7 @@ Repo" !Ref GithubRepo:
 - Solution: Fixed the typo in "pipeline"
 
 - Problem: prebuild and postbuild commands were not in the right format/
--Solution: added undersocres i.e pre_build
+- Solution: added undersocres i.e pre_build
 
 - Problem: ViewerProtocolPolicy was set to http instead of https
 - Solution: changed it to https
